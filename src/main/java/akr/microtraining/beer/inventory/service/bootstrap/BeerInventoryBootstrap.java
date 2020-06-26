@@ -1,11 +1,12 @@
-package guru.sfg.beer.inventory.service.bootstrap;
+package akr.microtraining.beer.inventory.service.bootstrap;
 
-import guru.sfg.beer.inventory.service.domain.BeerInventory;
-import guru.sfg.beer.inventory.service.repositories.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import akr.microtraining.beer.inventory.service.domain.BeerInventory;
+import akr.microtraining.beer.inventory.service.repositories.BeerInventoryRepository;
 
 import java.util.UUID;
 
@@ -15,7 +16,7 @@ import java.util.UUID;
 @Slf4j
 @RequiredArgsConstructor
 @Component
-public class BeerInvntoryBootstrap implements CommandLineRunner {
+public class BeerInventoryBootstrap implements CommandLineRunner {
     public static final String BEER_1_UPC = "0631234200036";
     public static final String BEER_2_UPC = "0631234300019";
     public static final String BEER_3_UPC = "0083783375213";

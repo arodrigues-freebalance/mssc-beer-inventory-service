@@ -8,7 +8,7 @@
         <version>2.1.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>guru.springframework</groupId>
+    <groupId>akr.microtraining</groupId>
     <artifactId>mssc-beer-inventory-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mssc-beer-inventory-service</name>
@@ -27,8 +27,8 @@
 
     <developers>
         <developer>
-            <name>John Thompson</name>
-            <organization>Spring Framework Guru</organization>
+            <name>Alfredo Rodrigues</name>
+            <organization>Micro Training</organization>
         </developer>
     </developers>
 
@@ -63,8 +63,7 @@
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
-            <version>${jaxb.version}</version>
-        </dependency>
+            </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-core</artifactId>
@@ -132,7 +131,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
                 <configuration>
                     <annotationProcessorPaths>
                         <path>

@@ -1,8 +1,9 @@
-package guru.sfg.beer.inventory.service.web.mappers;
+package akr.microtraining.beer.inventory.service.web.mappers;
 
-import guru.sfg.beer.inventory.service.domain.BeerInventory;
-import guru.sfg.beer.inventory.service.web.model.BeerInventoryDto;
 import org.mapstruct.Mapper;
+
+import akr.microtraining.beer.inventory.service.domain.BeerInventory;
+import akr.microtraining.beer.inventory.service.web.model.BeerInventoryDto;
 
 /**
  * Created by jt on 2019-05-31.
