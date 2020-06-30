@@ -3,23 +3,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+	<!-- https://mvnrepository.com/artifact/com.github.sfg-beer-works/sfg-brewery-beer-service -->
 	<parent>
-		<groupId>akr.microtraining</groupId>
-		<artifactId>mssc-brewery-bom</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>    
+		<groupId>com.github.sfg-beer-works</groupId>
+	    <artifactId>sfg-brewery-bom</artifactId>
+	    <version>1.0.7</version>
+  	</parent>    
 	
+	<groupId>akr.microtraining</groupId>
     <artifactId>mssc-beer-inventory-service</artifactId>
 
     <name>mssc-beer-inventory-service</name>
     <description>MSSC Beer Inventory Service</description>
-
-
+    
     <dependencies>
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
-            </dependency>
+        </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-core</artifactId>
@@ -28,6 +29,6 @@
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-impl</artifactId>
         </dependency>
-    </dependencies>
+    </dependencies>    
 
 </project>
