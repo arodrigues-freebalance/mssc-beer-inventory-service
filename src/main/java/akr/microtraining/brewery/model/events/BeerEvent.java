@@ -1,7 +1,8 @@
-package akr.microtraining.common.events;
+package akr.microtraining.brewery.model.events;
 
 import java.io.Serializable;
 
+import akr.microtraining.brewery.model.BeerDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

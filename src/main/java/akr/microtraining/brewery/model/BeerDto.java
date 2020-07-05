@@ -1,4 +1,4 @@
-package akr.microtraining.common.events;
+package akr.microtraining.brewery.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

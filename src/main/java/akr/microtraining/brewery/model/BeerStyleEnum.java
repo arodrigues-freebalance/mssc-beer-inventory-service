@@ -1,4 +1,4 @@
-package akr.microtraining.common.events;
+package akr.microtraining.brewery.model;
 
 public enum BeerStyleEnum {
 

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import akr.microtraining.beer.inventory.service.config.JmsConfig;
 import akr.microtraining.beer.inventory.service.domain.BeerInventory;
 import akr.microtraining.beer.inventory.service.repositories.BeerInventoryRepository;
-import akr.microtraining.common.events.NewInventoryEvent;
+import akr.microtraining.brewery.model.events.NewInventoryEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

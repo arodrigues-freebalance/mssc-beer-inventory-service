@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import akr.microtraining.beer.inventory.service.repositories.BeerInventoryRepository;
 import akr.microtraining.beer.inventory.service.web.mappers.BeerInventoryMapper;
-import akr.microtraining.beer.inventory.service.web.model.BeerInventoryDto;
+import akr.microtraining.brewery.model.BeerInventoryDto;
 
 import java.util.List;
 import java.util.UUID;

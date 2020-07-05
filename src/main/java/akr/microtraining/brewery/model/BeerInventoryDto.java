@@ -1,4 +1,4 @@
-package akr.microtraining.beer.inventory.service.web.model;
+package akr.microtraining.brewery.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

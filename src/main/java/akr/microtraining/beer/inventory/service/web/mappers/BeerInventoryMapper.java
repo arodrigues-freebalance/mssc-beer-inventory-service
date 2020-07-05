@@ -3,7 +3,7 @@ package akr.microtraining.beer.inventory.service.web.mappers;
 import org.mapstruct.Mapper;
 
 import akr.microtraining.beer.inventory.service.domain.BeerInventory;
-import akr.microtraining.beer.inventory.service.web.model.BeerInventoryDto;
+import akr.microtraining.brewery.model.BeerInventoryDto;
 
 /**
  * Created by jt on 2019-05-31.
