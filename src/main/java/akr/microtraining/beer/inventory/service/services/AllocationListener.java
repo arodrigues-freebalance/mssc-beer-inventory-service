@@ -30,6 +30,9 @@ public class AllocationListener {
             } else {
                 builder.pendingInventory(true);
             }
+            
+            builder.allocationError(false);
+            
         } catch (Exception e){
             log.error("Allocation failed for Order Id:" + request.getBeerOrderDto().getId());
             builder.allocationError(true);
